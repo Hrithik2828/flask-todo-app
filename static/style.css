@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #dbeafe, #f0f9ff);
+}
+
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-form input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #a5b4fc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.task-form button {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.task-form button:hover {
+    background-color: #4f46e5;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background-color: #eef2ff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ef4444;
+}
+
+.delete-btn:hover {
+    color: #b91c1c;
+}
+
+.flashes {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.flashes li {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.flashes .success {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.flashes .warning {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.flashes .info {
+    background-color: #e0f2fe;
+    color: #0369a1;
+}
